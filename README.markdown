@@ -1,5 +1,5 @@
-npm-tweets
-==========
+bunto-tweets
+============
 
 I published a library recently that didn't get nearly as many followers as expected.
 
@@ -7,9 +7,9 @@ A person of lesser hubris might have assumed that the library was was less usefu
 
 The problem was that there aren't enough tweets when Node.js packages are published or updated
 
-*npm-tweets* is an open-source twitter bot that tweets as packages are updated on npmjs.org:
+*bunto-tweets* is an open-source twitter bot that tweets as packages are updated on bunto.isc:
 
-http://twitter.com/#!/nodenpm
+https://twitter.com/buntowaf
 
 Usage
 -----
@@ -19,9 +19,9 @@ I've open-sourced npm-tweets so that anyone can easily setup an npm Twitter Bot.
 Creating the Bot:
 
 ```javascript
-var NPMTweets = require('npm-tweets').NPMTweets;
+var BuntoTweets = require('npm-tweets').BuntoTweets;
 
-npmTweets = new NPMTweets({
+buntoTweets = new BuntoTweets({
 	consumer_key: 'CONSUMER_KEY',
 	consumer_secret: 'CONSUMER_SECRET',
 	access_token_key: 'TOKEN_KEY',

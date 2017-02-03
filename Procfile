@@ -1,1 +1,1 @@
-npmtweets: node ./bin/npm-tweets.js
+npmtweets: node ./bin/bunto-tweets.js
